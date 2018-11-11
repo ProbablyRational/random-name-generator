@@ -1,7 +1,7 @@
 {
     "name": "probablyrational/random-name-generator",
     "description": "A library to create interesting, sometimes entertaining, random names. (Based on nubs/random-name-generator)",
-    "keywords": ["random", "generator", "video game", "alliteration"],
+    "keywords": ["random", "generator", "video game", "alliteration", "sketchy"],
     "authors": [
         {
             "name": "Zachary Claret-Scott",
