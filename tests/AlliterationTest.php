@@ -1,11 +1,11 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 use PHPUnit_Framework_TestCase;
 use Cinam\Randomizer\Randomizer;
 
 /**
- * @coversDefaultClass \Nubs\RandomNameGenerator\Alliteration
+ * @coversDefaultClass \ProbablyRational\RandomNameGenerator\Alliteration
  * @covers ::<protected>
  */
 class AlliterationTest extends PHPUnit_Framework_TestCase
