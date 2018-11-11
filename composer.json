@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nubs\\RandomNameGenerator\\": "src"
+            "ProbablyRational\\RandomNameGenerator\\": "src"
         }
     },
     "scripts": {
