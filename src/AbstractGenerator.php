@@ -1,5 +1,5 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 abstract class AbstractGenerator implements Generator
 {
