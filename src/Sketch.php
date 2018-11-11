@@ -54,7 +54,7 @@ class Sketch extends AbstractGenerator implements Generator
         $queryKey = $this->_getRandomWord($this->_scary_words);
         $queryValue = $this->_getRandomWord($this->_scary_words);
 
-        return ucwords("{$domain}\{$string}{$filename}.{$filetype}?{$queryKey}={$queryValue}");
+        return ucwords("{$domain}2F{$filename}.{$filetype}3F{$queryKey}={$queryValue}");
     }
 
     /**
