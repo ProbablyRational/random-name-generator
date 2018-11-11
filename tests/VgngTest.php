@@ -1,11 +1,11 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 use PHPUnit_Framework_TestCase;
 use Cinam\Randomizer\Randomizer;
 
 /**
- * @coversDefaultClass \Nubs\RandomNameGenerator\Vgng
+ * @coversDefaultClass \ProbablyRational\RandomNameGenerator\Vgng
  * @covers ::<protected>
  */
 class VgngTest extends PHPUnit_Framework_TestCase
