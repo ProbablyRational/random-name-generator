@@ -1,5 +1,5 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 use Cinam\Randomizer\Randomizer;
 
