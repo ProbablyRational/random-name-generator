@@ -44,7 +44,7 @@ class Alliteration extends AbstractGenerator implements Generator
         }
         $words[] = $this->_getRandomWord($this->_nouns);
 
-        return implode(' ', $words);
+        return implode('-', $words);
     }
 
     /**

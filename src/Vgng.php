@@ -49,7 +49,7 @@ class Vgng extends AbstractGenerator implements Generator
             $similarWords = array_merge($similarWords, $word['similarWords']);
         }
 
-        return implode(' ', $words);
+        return implode('-', $words);
     }
 
     /**
