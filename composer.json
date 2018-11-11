@@ -1,12 +1,12 @@
 {
-    "name": "nubs/random-name-generator",
-    "description": "A library to create interesting, sometimes entertaining, random names.",
+    "name": "probablyrational/random-name-generator",
+    "description": "A library to create interesting, sometimes entertaining, random names. (Based on nubs/random-name-generator)",
     "keywords": ["random", "generator", "video game", "alliteration"],
     "authors": [
         {
-            "name": "Spencer Rinehart",
-            "email": "anubis@overthemonkey.com",
-            "role": "Developer"
+            "name": "Zachary Claret-Scott",
+            "email": "zachary.claretscott@probablyrational.com",
+            "role": "Contributer"
         }
     ],
     "license": "MIT",
