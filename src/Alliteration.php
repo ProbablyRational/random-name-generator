@@ -36,12 +36,15 @@ class Alliteration extends AbstractGenerator implements Generator
      * @api
      * @return string A random alliterative name.
      */
-    public function getName()
+    public function getName($len = 1)
     {
-        $adjective = $this->_getRandomWord($this->_adjectives);
-        $noun = $this->_getRandomWord($this->_nouns, $adjective[0]);
+        $words = [];
+        for ($x = 0; $x < $len; $x++) {
+            $words[] = $this->_getRandomWord($this->_adjectives);
+        }
+        $words[] = $this->_getRandomWord($this->_nouns);
 
-        return ucwords("{$adjective} {$noun}");
+        return implode(' ', $words);
     }
 
     /**

@@ -45,9 +45,9 @@ class All extends AbstractGenerator implements Generator
      * @api
      * @return string A random name.
      */
-    public function getName()
+    public function getName($len = 1)
     {
-        return $this->_getRandomGenerator()->getName();
+        return $this->_getRandomGenerator()->getName($len);
     }
 
     /**
