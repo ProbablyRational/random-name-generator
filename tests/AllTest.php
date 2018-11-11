@@ -1,11 +1,11 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 use PHPUnit_Framework_TestCase;
 use Cinam\Randomizer\Randomizer;
 
 /**
- * @coversDefaultClass \Nubs\RandomNameGenerator\All
+ * @coversDefaultClass \ProbablyRational\RandomNameGenerator\All
  * @covers ::<protected>
  */
 class AllTest extends PHPUnit_Framework_TestCase
@@ -17,8 +17,8 @@ class AllTest extends PHPUnit_Framework_TestCase
      * @covers ::__construct
      * @covers ::create
      * @covers ::getName
-     * @uses \Nubs\RandomNameGenerator\Alliteration
-     * @uses \Nubs\RandomNameGenerator\Vgng
+     * @uses \ProbablyRational\RandomNameGenerator\Alliteration
+     * @uses \ProbablyRational\RandomNameGenerator\Vgng
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AllTest extends PHPUnit_Framework_TestCase
      * @covers ::__construct
      * @covers ::create
      * @covers ::getName
-     * @uses \Nubs\RandomNameGenerator\Alliteration
+     * @uses \ProbablyRational\RandomNameGenerator\Alliteration
      *
      * @return void
      */
@@ -58,8 +58,8 @@ class AllTest extends PHPUnit_Framework_TestCase
      * @covers ::create
      * @covers ::__toString
      * @covers ::getName
-     * @uses \Nubs\RandomNameGenerator\Alliteration
-     * @uses \Nubs\RandomNameGenerator\Vgng
+     * @uses \ProbablyRational\RandomNameGenerator\Alliteration
+     * @uses \ProbablyRational\RandomNameGenerator\Vgng
      *
      * @return void
      */
