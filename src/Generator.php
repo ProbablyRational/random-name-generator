@@ -1,5 +1,5 @@
 <?php
-namespace Nubs\RandomNameGenerator;
+namespace ProbablyRational\RandomNameGenerator;
 
 /**
  * Defines the standard interface for all the random name generators.
