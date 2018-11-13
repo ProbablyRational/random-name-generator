@@ -16,3 +16,8 @@ websservice.org
 paypal.com
 ebay.com
 amazon.com
+hsbc.com
+lloydsbankinggroup.com
+rbs.com
+home.barclays
+sc.com
